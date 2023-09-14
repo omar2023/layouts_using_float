@@ -1,0 +1,47 @@
+
+div{
+    margin-top: 15px;
+}
+.parent{
+    width: 880px;
+    background-color: rgb(228, 228, 228);
+    overflow: hidden;
+}
+.full{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    width: calc(100% - 30px);
+    background-color: rgb(47, 92, 92);
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+.one-third{
+    float: left;
+    width: calc((100% - 60px) / 3);
+    margin-left: 15px;
+    background-color: rgb(207, 207, 207);
+}
+.one-two{
+    background-color: blue;
+    float: left;
+    width: calc((100% - 45px) / 2);
+    margin-left: 15px;
+}
+.one-four{
+    background-color: blue;
+    float: left;
+    width: calc((100% - 75px) / 4);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.full,
+.one-four,
+.one-third,
+.one-two{
+    background-color: rgb(201, 201, 201);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
